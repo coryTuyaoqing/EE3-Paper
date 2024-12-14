@@ -1,0 +1,35 @@
+\chapter{Introduction}
+The advent of the 21st century has been characterized by an urgent global need to reduce dependency on fossil fuels, both to combat climate change and to build a sustainable future for mankind in the planet. Solar energy has now long been at the forefront of renewable technologies, due to the growing accessibility and utility of solar photovoltaic systems. The increase in global PV capacity has been exponential over the last decade, driven by both policy incentives as well as purely financial ones. Indeed, the advancements in PV technology have more affordable, efficient, and as a result, viable than ever before.\cite{irena2020}
+
+Project Sunflower aims to both develop a functional PV system for a practical application, as well as to contribute to the research in the field of solar power. Designed as part of KU Leuven Campus Groep T\textquotesingle s initiative for innovation in the field of renewable energy, Project Sunflower is a PV system equipped with a PV cell, a Maximum Power Point Tracking (MPPT) controller, a battery for energy storage, as well as an array of other additional features.
+
+MPPT technology is essential in photovoltaic systems. It enables the solar panel to operate at its optimal power point despite varying irradiance and temperature conditions, potentially enhancing system efficiency by up to 30\% under certain conditions. \cite{4207429} Being an electronics engineering project at its core, the design of the MPPT controller is what Project Sunflower centers around. By implementing MPPT, the project aims to maximize the energy yield of the solar panel, addressing one of the core challenges in renewable energy-efficiency.
+
+However, MPPT control is not the only way in which efficiency of PV systems can be increased. Studies suggest that sun-tracking systems, which involve rotating the PV cells, could help maximize system efficiency. \cite{KOUSSA20111756} During our literature analysis, we found that most data provided by such studies focuses on biaxial rotation, which while being simple to implement on a small scale, is generally not scalable. Although some studies address uniaxial rotation, they frequently exclude the MPPT controller in their analysis. Consequently, the data on the benefits of combining uniaxial panel rotation with MPPT control remains rather limited, presenting an opportunity
+for our team to contribute valuable insights through this project.
+
+
+\section{Requirements analysis}
+
+
+
+
+Our project aims to develop a system that will leverage solar energy to  deliver clean and renewable energy specifically tailored to function at the the Group T campus. And our project is designed with the following functional and non-functional requirements:
+\begin{enumerate}
+    \item Power Generation and Storage:\\
+    The solar panel must generate sufficient power under varying lighting conditions.\\
+    A battery pack is to be charged using an MPPT controller, ensuring over 85\% tracking efficiency. Efficiency is evaluated by measuring input and output power over time.
+
+    \item Stable Power Output:\\
+    The system should provide a consistent 5V output suitable for charging small electronic devices like smartphones. We will use a multimeter or oscilloscope to verify this requirement and ensure voltage stability.
+
+    \item Real-Time Monitoring:\\
+    A web interface should display metrics such as current power generation, battery charge status, and system performance in real time, updating at least once per minute. Data displayed in the app will be compared with real-time sensor readings.
+
+    \item Additional Features:\\
+    Optional features include a biaxial solar tracking mechanism and an LCD display for key metrics, enhancing energy efficiency and user interaction. Tracking mechanism responsiveness is measured using angular displacement, while LCD output is cross-checked with sensor data.
+    
+\end{enumerate}
+
+In summary, the proposed system aims to create an eco-friendly and scalable energy solution, conducting research into its different aspects along the way. 
+
